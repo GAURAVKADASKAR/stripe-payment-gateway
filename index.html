@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <center><h1>Welcome to the stripe payment </h1></center>
+   <center>
+    <form action="charge.php" method="POST" class="box">
+        <script
+          src="https://checkout.stripe.com/checkout.js"
+          class="stripe-button"
+          data-key="pk_test_51PbK3TAeaZekztiRez1AyAkkdTwOXc63ugBJ5DDvtvpsPCPgJ6rOoHvSXqCY24cvwsNOx0PZwEvfqG9TzP9lzXh800rS3zfvJs"
+          data-name="Subscription payment"
+          data-description="pay for the Subscription"
+          data-amount="1000"
+          data-currency="usd"
+          data-label="paynow">
+        </script>
+      </form>
+   </center>
+</body>
+</html>
